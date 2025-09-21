@@ -5,10 +5,9 @@ const Removebackground = () => {
 
   const [input, setInput] = useState("");
     
-      const onSubmitHandler=async(e)=>{
-         e.preventDefault();
-         
-      }
+  const onSubmitHandler=async(e)=>{
+    e.preventDefault();         
+  }
 
   return (
     <div className="h-full overflow-y-scroll p-6 flex items-start flex-wrap gap-4 text-slate-700">
